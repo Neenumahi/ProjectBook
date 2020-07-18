@@ -9,6 +9,11 @@ public class Books {
 	public void secondLang() {
 		System.out.println("second language is English");
 	}
+	public static void main(String[] args) {
+		Books b=new Books();
+		b.firstLang();
+		b.secondLang();
+	}
 	}
 
 
